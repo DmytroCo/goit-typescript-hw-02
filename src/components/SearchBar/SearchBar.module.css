@@ -1,0 +1,43 @@
+.header {
+  background-color: #01005f;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+  gap: 24px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  font-family: "Roboto Mono", serif;
+  font-size: 16px;
+  padding: 4px;
+  width: 360px;
+  border-radius: 4px;
+  transition: border 300ms ease-in-out;
+}
+
+.input:focus {
+  border: 2px solid #833bbe;
+}
+
+.searchButton {
+  width: 98px;
+  font-size: 16px;
+  padding: 4px;
+  background-color: #5cbbee;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 300ms ease-in-out, font-weight 300ms ease-in-out;
+}
+
+.searchButton:hover,
+.searchButton:focus {
+  background-color: #833bbe;
+  font-weight: 600;
+}
